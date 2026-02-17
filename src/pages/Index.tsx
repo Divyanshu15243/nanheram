@@ -117,9 +117,9 @@ const Index = () => {
         className="parallax-section relative flex h-96 items-center justify-center md:h-[500px]"
         style={{ backgroundImage: `url(${cashewImg})` }}
       >
-        <p className="relative z-10 font-serif text-2xl font-bold text-primary-foreground md:text-4xl">
+        {/* <p className="relative z-10 font-serif text-2xl font-bold text-primary-foreground md:text-4xl">
           Taste the Difference, Naturally.
-        </p>
+        </p> */}
       </section>
 
       {/* ── Featured Products ── */}
@@ -202,9 +202,9 @@ const Index = () => {
         className="parallax-section relative flex h-96 items-center justify-center md:h-[500px]"
         style={{ backgroundImage: `url(${makhanaImg})` }}
       >
-        <p className="relative z-10 text-center font-serif text-2xl font-bold text-primary-foreground md:text-4xl">
+        {/* <p className="relative z-10 text-center font-serif text-2xl font-bold text-primary-foreground md:text-4xl">
           From Nature to Your Table
-        </p>
+        </p> */}
       </section>
 
       {/* ── Trust Badges ── */}
