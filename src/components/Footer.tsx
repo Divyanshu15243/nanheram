@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { MessageCircle } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/mainlogo.png";
 
 const Footer = () => {
   return (

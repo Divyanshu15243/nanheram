@@ -59,7 +59,6 @@ const Index = () => {
         >
           <source src={heroBanner} type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-r from-foreground/70 via-foreground/40 to-transparent" />
         <div className="container relative z-10 text-primary-foreground">
           <div className="flex justify-center">
             <a
@@ -118,7 +117,6 @@ const Index = () => {
         className="parallax-section relative flex h-96 items-center justify-center md:h-[500px]"
         style={{ backgroundImage: `url(${cashewImg})` }}
       >
-        <div className="absolute inset-0 bg-foreground/50" />
         <p className="relative z-10 font-serif text-2xl font-bold text-primary-foreground md:text-4xl">
           Taste the Difference, Naturally.
         </p>
@@ -204,7 +202,6 @@ const Index = () => {
         className="parallax-section relative flex h-96 items-center justify-center md:h-[500px]"
         style={{ backgroundImage: `url(${makhanaImg})` }}
       >
-        <div className="absolute inset-0 bg-foreground/50" />
         <p className="relative z-10 text-center font-serif text-2xl font-bold text-primary-foreground md:text-4xl">
           From Nature to Your Table
         </p>
